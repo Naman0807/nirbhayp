@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #6e4d83, #7f5dc5);
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #7f5dc5;
+}
+
+.jumbotron {
+    background-image: url("https://img.freepik.com/free-photo/abstract-background-with-red-lines_1361-3531.jpg?w=1060&t=st=1676130530~exp=1676131130~hmac=859fb308fda73bd72242a32b0a4ce71959314228ac6e0c9e394933462f5e73ef");
+    background-size: 2055px 550px;
+    background-repeat: no-repeat;  
+    height: 500px;
+    color: #fff;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
+}
+
+#contact {
+    background-image: linear-gradient(to top, #f2f2f2, #e6e6e6);
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #7f5dc5;
+}
+
+footer {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    background: #7f5dc5;
+}
+
+#aaaa {
+    color: #aaa;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #f57aaf, #9478ff);
+    color: #4f4f4f;
+    width: 100%;
+}
+
+.btn:hover {
+    color: #dddddd;
+    background-image: linear-gradient(0deg, #9478ff, #f57aaf);
+}
+
+.a {
+    height: 250px;
+}
+
+.contact_info {
+    font-size: 3em;
+}
+.qw{
+    color: #444;
+}
+
+.ca {
+    background: #000;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+ul li a {
+    text-transform: capitalize;
+    color: #7f5dc5;
+}
+.size{
+    font-size:25px;;
+}
+.mid{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(134, 133, 134);
+}
+/*muli vadu*/
+.col-md-3 img {
+    padding: 25px 25px;
+    margin: 20px 20px;
+    width: 350px;
+    height: 350px;
+    transition: all 0.5s ease-in-out;
+}
+
+.col-md-3 img:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px #000;
+}
+#skill .row{
+padding-left: 18%;    
+}
